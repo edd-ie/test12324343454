@@ -1,1 +1,1 @@
-port ENV['PORT'] || 4567
+port ENV['PORT'] || 5432
