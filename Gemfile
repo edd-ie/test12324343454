@@ -31,7 +31,7 @@ gem "sinatra-activerecord", "~> 2.0"
 gem "rake", "~> 13.0"
 
 # Provides functionality to interact with a SQLite3 database
-gem "sqlite3", "~> 1.4"
+gem "sqlite3"
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
@@ -57,5 +57,3 @@ group :production do
       gem 'puma', '~> 6.1'
       gem 'pg', '~> 1.4'
 end
-
-'bundle lock --add-platform x86_64-linux'

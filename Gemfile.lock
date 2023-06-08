@@ -35,7 +35,6 @@ GEM
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.9)
-    pg (1.5.3)
     pg (1.5.3-x64-mingw-ucrt)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -81,9 +80,7 @@ GEM
     sinatra-activerecord (2.0.26)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
-    sqlite3 (1.6.3-arm64-darwin)
     sqlite3 (1.6.3-x64-mingw-ucrt)
-    sqlite3 (1.6.3-x86_64-darwin)
     thin (1.8.2)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -94,9 +91,7 @@ GEM
     zeitwerk (2.6.8)
 
 PLATFORMS
-  universal-darwin-20
   x64-mingw-ucrt
-  x86_64-darwin-19
   x86_64-linux
 
 DEPENDENCIES
@@ -116,8 +111,8 @@ DEPENDENCIES
   rspec-json_expectations (~> 2.2)
   sinatra (~> 2.1)
   sinatra-activerecord (~> 2.0)
-  sqlite3 (~> 1.4)
+  sqlite3
   thin (~> 1.8)
 
 BUNDLED WITH
-   2.2.23
+   2.4.13

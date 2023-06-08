@@ -2,6 +2,9 @@ class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
   # Add routes
+  get '/' do
+    Message.all.to_json
+  end
   get '/messages' do
     data  = Message.all.order(:created_at)
     msg = data.map{|u| u[:body]}
