@@ -23,10 +23,9 @@ test:
 
 production:
   adapter: postgresql
-  database: <database_name>
-  username: <username>
-  password: <password>
-  host: <host>
-  port: <port>
+  database: random1db
+  username: edd
+  password: rCcnnnuov6wUuSZcRnSSQdLSN5IRKYuG
+  host: dpg-ci0pbsu4dad5j72gr4i0-a
+  port: 5432
   pool: 5
-
