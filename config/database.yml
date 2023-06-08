@@ -1,4 +1,3 @@
-require 'sinatra/activerecord'
 #
 default: &default
   adapter: sqlite3
