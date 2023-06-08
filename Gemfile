@@ -12,6 +12,8 @@ gem "thin", "~> 1.8"
 # https://github.com/rack/rack-contrib
 gem "rack-contrib", "~> 2.3"
 
+gem 'did_you_mean'
+
 # More Rack middleware! Used to handle CORS requests
 # https://github.com/cyu/rack-cors
 gem "rack-cors", "~> 1.1"
@@ -55,3 +57,5 @@ group :production do
       gem 'puma', '~> 6.1'
       gem 'pg', '~> 1.4'
 end
+
+'bundle lock --add-platform x86_64-linux'
